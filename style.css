@@ -1,13 +1,13 @@
 @font-face{
-  src:url(fonts/LemonMilk/LemonMilk.otf);
+  src:url(LemonMilk/LemonMilk.otf);
   font-family: lm;
 }
 @font-face{
-  src:url(fonts/LemonMilk/LemonMilkbold.otf);
+  src:url(LemonMilk/LemonMilkbold.otf);
   font-family: lmb;
 }
 @font-face{
-  src:url(fonts/timeless/Timeless-Bold.ttf);
+  src:url(timeless/Timeless-Bold.ttf);
   font-family: tlss;
 }
 
