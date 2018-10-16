@@ -7,7 +7,7 @@
   font-family: lmb;
 }
 @font-face{
-  src:url(timeless/Timeless-Bold.ttf);
+  src:url(timeless/Timeless.ttf);
   font-family: tlss;
 }
 
@@ -115,7 +115,7 @@ body {
     background-color: black;
 }
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: black;
 }
 
 /*body*/
