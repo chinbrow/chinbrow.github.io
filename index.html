@@ -16,7 +16,7 @@
       <li><a class="port1" href="#">PP</a>
       </li><li><a class="port2" href="#problem">Problem</a>
       </li><li><a class="port3" href="#solutions">Solutions</a>
-      </li><li><a class="port4" href="#exam">Exam</a>
+      <!--</li><li><a class="port4" href="#exam">Exam</a>-->
       </li><li class="dropdown"><a>SOURCES</a>
 
         <div class="dropdown-content">
@@ -42,22 +42,22 @@
       </div>
       <div class="mySlides fade">
 
-        <img src="photos/prison2.jpg" style="width:100%">
+        <img src="photos/prison2.JPG" style="width:100%">
 
       </div>
       <div class="mySlides fade">
 
-        <img src="photos/prison3.jpg" style="width:100%">
+        <img src="photos/prison3.JPG" style="width:100%">
 
       </div>
       <div class="mySlides fade">
 
-        <img src="photos/prison4.jpg" style="width:100%">
+        <img src="photos/prison4.JPG" style="width:100%">
 
       </div>
       <div class="mySlides fade">
 
-        <img src="photos/prison5.jpg" style="width:100%">
+        <img src="photos/prison5.JPG" style="width:100%">
 
       </div>
 
@@ -89,14 +89,16 @@
       </ul>
 
     </div>
-    <div class="body-div2"><img src="photos/cifras.png" class="image"></div>
+    <div class="img-div"><img src="photos/cifras.png" class="image"></div>
+    <div class="img-div2"><img src="photos/cifras2.png" class="image2"></div>
+    <img src="photos/cifras3.png" class="image3">
     <div id="solutions" class="body-div">
 
       <h1 class="titles">The Solution</h1>
       <br>
       <ul class="body-p">
 
-        <li style="margin: 0px; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 0px;">Design effective social reintegration strategies that guarantee that the prison population can reincorporate to be productive in our community should be a main concern of any penitentiary system.</li>
+        <li style="margin-left: 10px; margin-right: 10px; margin-top: 0px; margin-bottom: 0px;">Design effective social reintegration strategies that guarantee that the prison population can reincorporate to be productive in our community should be a main concern of any penitentiary system.</li>
         <li class="paragraph">Why? UNODC warns that investing in social reintegration helps reduce the number of people who return to commit a crime, therefore, the number of victims decreases as well as increases the security in the community.</li>
         <li class="paragraph">In addition, the successful reintegration of criminals will make fewer of them appear again in the judicial courts, fewer return to prison and increase the overpopulation of jails in such a way that the benefits of this type of interventions not only affect the increase in security, but also contribute to the reduction of the cost of the penitentiary system.</li>
         <li class="paragraph">We propose to model our reintegration strategies on The Last Mile (TLM). It was created to provide programs that result in successful reentry and reduce recidivism. We believe that jobs are the key to breaking the cycle of incarceration. The goal is to provide marketable skills that lead to employment. The in and out program provides career training in prison with mentorship and job placement upon release.</li>
@@ -108,7 +110,7 @@
 
     </div>
 
-    <div id="exam" class="body-div3">
+    <!--<div id="exam" class="body-div3">
 
       <h1 class="titles">Exam Evaluation</h1>
       <br>
@@ -167,7 +169,7 @@
         </li>
       </ul>
 
-    </div>
+    </div>-->
 
   </body>
 
@@ -197,24 +199,25 @@
   $(".port1").click(function() {
       $('html, body').animate({
           scrollTop:0
-      }, 1000);
+      }, 1500);
   });
 
   $(".port2").click(function() {
       $('html, body').animate({
           scrollTop:   $("#problem").offset().top
-      }, 1000);
+      }, 1500);
   });
 
   $(".port3").click(function() {
       $('html, body').animate({
           scrollTop:   $("#solutions").offset().top
-      }, 1000);
+      }, 1500);
   });
-  $(".port4").click(function() {
+  /*$(".port4").click(function() {
       $('html, body').animate({
           scrollTop:   $("#exam").offset().top
       }, 1000);
-  });
+  });*/
 
 </script>
+
