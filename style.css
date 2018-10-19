@@ -111,18 +111,17 @@ body {
     display: block;
     text-align: left;
 }
-.dropdown-content a:hover {
-    background-color: black;
-}
 .dropdown:hover .dropdown-content {
-    display: black;
+    display: block;
 }
 
 /*body*/
 .titles{
   font-family:lm;
   text-align: center;
+  color: rgb(213,58,58);
 }
+
 .body-div{
   height: 693px;/*normal 693px*/
   background-color: white;
@@ -133,29 +132,37 @@ body {
   padding: 5px;
   text-align: center;
 }
-.body-div2{
-  height: 693px;
-  width: 770px;
+/*.body-div2{
+  height: 893px;
   background-color: white;
   margin-left: 10px;
   margin-top: 0px;
   margin-right: 10px;
   margin-bottom: 10px;
   padding: 5px;
+  text-align: center;
+}*/
+.img-div{
+  height: 633px;
+  width: 700px;
+  background-color: white;
+  margin:0;
+  padding: 0;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.body-div3{
-  height: 893px;/*normal 693px*/
-  background-color: white;
-  margin-left: 10px;
-  margin-top: 0px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  padding: 5px;
+.img-div2{
+  height: 658px;
+  width: 700px;
+  background-color: rgb(244,219,229);
+  margin: 0;
+  padding: 0;
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .body-p{
   padding: 10px;
@@ -175,5 +182,13 @@ body {
 }
 .image{
   width: 75%;
+  margin: 10px;
+}
+.image2{
+  width: 85%;
+  margin: 10px;
+}
+.image3{
+  width: 98.5%;
   margin: 10px;
 }
