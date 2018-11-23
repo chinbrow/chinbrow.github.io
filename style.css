@@ -30,6 +30,12 @@ body {
     background-color: rgb(230,230,230);
 }
 
+.video {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 /*navigation bar*/
 .navbar-fixed {
   top: 0;
@@ -119,18 +125,78 @@ body {
 .titles{
   font-family:lm;
   text-align: center;
+  font-size: 44px;
+  -webkit-text-stroke: 1px black;
   color: rgb(213,58,58);
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.title-impact{
+  font-family:lm;
+  text-align: center;
+  font-size: 44px;
+  -webkit-text-stroke: 1px black;
+  color: rgb(45, 99, 14);
+  text-shadow:
+      3px 3px 0 #000,
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+.centered {
+  position: absolute;
+  font-family:lm;
+  font-size: 58;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke: 1px white;
+    color: rgb(213,58,58);
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 
 .body-div{
-  height: 693px;/*normal 693px*/
+  height: 95%;/*normal 693px*/
   background-color: white;
   margin-left: 10px;
   margin-top: 0px;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 45px;
   padding: 5px;
   text-align: center;
+  border: 3px solid rgb(213,58,58);
+}
+.solution-div{
+  height: 95%;/*normal 693px*/
+  background-color: white;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 45px;
+  padding: 5px;
+  text-align: center;
+  border: 3px solid rgb(45, 99, 14);
+}
+.video-div{
+  height: 47%;/*normal 693px*/
+  width: 45%;
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  border: 3px solid rgb(50, 68, 128);
 }
 /*.body-div2{
   height: 893px;
@@ -143,7 +209,7 @@ body {
   text-align: center;
 }*/
 .img-div{
-  height: 633px;
+  height: 100%;
   width: 700px;
   background-color: white;
   margin:0;
@@ -154,7 +220,7 @@ body {
   margin-right: auto;
 }
 .img-div2{
-  height: 658px;
+  height: 100%;
   width: 700px;
   background-color: rgb(244,219,229);
   margin: 0;
